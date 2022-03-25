@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+    header {
+        padding: 0;
+    }
+    header .right-header {
+        padding: 2rem !important;
+    }
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header {
+        .h-img {
+            display: none;
+        }
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 !important;
+        }
+    }
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateY(-50%);
+        .control {
+            margin: 1rem .3rem;
+        }
+    }
+}
