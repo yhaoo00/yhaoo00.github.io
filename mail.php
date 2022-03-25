@@ -30,7 +30,7 @@
         $mail -> send();
 
         // echo 'Sent';
-        header("Location: http://localhost:8000");
+        header("Location: https://yhaoo00.github.io/");
     }
     catch (Exception $e)
     {
